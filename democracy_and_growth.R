@@ -1,5 +1,3 @@
-setwd('C:/Tony/git_workspace/democratic_erosion')
-
 #declare arbitrary thresholds
 dem_threshold = 0.5
 
@@ -94,7 +92,7 @@ ggplot(data = vdem,
         axis.title.x = element_text(size = 18, margin = margin(t = 8)),
         legend.position = 'none')
 
-ggsave(filename = "C:/Tony/Political Science MA/data/growth_distribution_by_dem.jpg",
+ggsave(filename = "./growth_distribution_by_dem.jpg",
        width = 10,
        height = 6,
        units = 'in')
@@ -142,7 +140,7 @@ ggplot(data = vdem,
         axis.title.x = element_text(size = 18, margin = margin(t = 8)),
         legend.position = 'none')
 
-ggsave(filename = "C:/Tony/Political Science MA/data/growth_distribution_by_dem_plus_examples.jpg",
+ggsave(filename = "./growth_distribution_by_dem_plus_examples.jpg",
        width = 10,
        height = 6,
        units = 'in')
